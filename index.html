@@ -5,15 +5,46 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>s-g-parking</title>
-    <link href="/src/style.css" rel="stylesheet">
+    <link href="/src/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   </head>
-  <body class="flex justify-center">
+  <body class="bg-primary bg-linear-to-b from-primary to-light min-h-dvh p-5">
     
     <!-- Start Navbar -->
+
+    <div class="navbar px-5 py-1 flex items-center max-sm:flex-col border-2 bg-seacondary  border-white rounded-full gap-1">
+
+      <div class="left_nav flex-2 flex-bet">
+        <a href="#" class="logo text-xl font-medium max-sm:mb-2">MCH_Parking</a>
+        <input type="search" id="search_input" placeholder="Search" class="hidden px-2 py-1 text-sm outline-0 border border-white rounded-md">
+      </div>
+
+      <div class="right_nav flex-1 flex-bet px-5 border-l-2 border-white">
+
+        <div class="icons">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#"><i class="fa-solid fa-gear"></i></a>
+          <a href="#"><i class="fa-regular fa-bell"></i></a>
+        </div>
+        
+        <div class="profile  flex items-center gap-2 cursor-pointer">
+          <div class="image w-9.5 rounded-full overflow-hidden">
+            <img src="/public/avatar.avif" alt="avatar" class="w-full">
+          </div>
+
+          <div class="info max-md:hidden">
+            <h4 class="font-medium text-md ">Mouad</h4>
+            <p class="text-[16px] text-primary -mt-1">admin</p>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
 
     <!-- End Navbar -->
 
 
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

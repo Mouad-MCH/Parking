@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary : #89979D;
+  --color-seacondary: #f3f4f7ac;
+  --color-light: #DBD9C9;
+  --color-button-nav: #000000;
+  --color-button: #E9E8E7;
+  --color-hover: #FBF0D2;
+} 
+
+
+@layer base {
+  .icons {
+    @apply flex-center gap-1;
+
+    a {
+      @apply flex-center w-8 h-8 rounded-full bg-white;
+    }
+  }
+}
+
+
+
+@utility flex-bet {
+  @apply flex items-center justify-between;
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
