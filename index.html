@@ -7,6 +7,7 @@
     <title>s-g-parking</title>
     <link href="/src/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->
   </head>
   <body class="bg-primary bg-linear-to-b from-primary to-light min-h-dvh p-5">
     
@@ -44,6 +45,37 @@
 
     <!-- End Navbar -->
 
+    <!-- Start main content -->
+
+    <div class="main mt-2 grid grid-cols-3 sm:grid-rows-3 grid-rows-8  gap-2 min-h-dvh">
+      <!-- Start parking -->
+      <div class="park p-5 box col-span-2 sm:row-span-2 row-span-3 max-sm:col-span-3 overflow-hidden relative">
+
+        <h2 class="text-xl mb-5 font-medium">parking</h2>
+
+        <div class="sw w-full h-[80%] bg-amber-300">
+          <div class="swiper-pagination"></div>
+          <div class="swiper mySwiper w-full h-full"> 
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+            </div>
+          </div>
+       </div>
+
+      </div>
+      <!-- Start parking -->
+      <div class="book box col-span-1 row-span-2 max-sm:col-span-3 max-sm:row-start-4">book</div>
+      <div class="current box col-span-2 row-span-1 max-sm:row-span-2 max-sm:row-start-7 max-sm:col-span-3 ">current</div>
+      <div class="type box col-span-1 row-span-1 max-sm:row-start-6 max-sm:col-span-3">type</div>
+    </div>
+
+    <!-- End main content -->
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <script type="module" src="/src/js/main.js"></script>
   </body>

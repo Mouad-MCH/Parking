@@ -6,7 +6,7 @@
   --color-seacondary: #f3f4f7ac;
   --color-light: #DBD9C9;
   --color-button-nav: #000000;
-  --color-button: #E9E8E7;
+  --color-button: #E9BA41;
   --color-hover: #FBF0D2;
 } 
 
@@ -19,6 +19,30 @@
       @apply flex-center w-8 h-8 rounded-full bg-white;
     }
   }
+
+  .sm_grid {
+    @apply max-sm:col-span-3;
+  }
+
+  .swiper-slide {
+    @apply bg-gray-500 flex-center;
+  }
+
+    .swiper-pagination {
+      @apply w-full flex-center gap-10;
+    }
+
+  .swiper-pagination-bullet {
+    @apply px-2 py-1 rounded-lg text-center text-[12px] text-black opacity-100 bg-white space-x-10 cursor-pointer;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply text-white bg-button;
+  }
+
+  .swiper-wrapper {
+    @apply flex-center w-full;
+  }
 }
 
 
@@ -30,3 +54,8 @@
 @utility flex-center {
   @apply flex items-center justify-center;
 }
+
+@utility box {
+  @apply bg-seacondary rounded-lg ring ring-white;
+}
+
