@@ -43,6 +43,35 @@
   .swiper-wrapper {
     @apply flex-center w-full;
   }
+
+  .place {
+    @apply flex-center border-x border-white text-white hover:border-button hover:text-button cursor-pointer;
+  };
+
+  
+  .place.active {
+    @apply border-button text-button inset-shadow-amber-300 inset-shadow-sm text-shadow-2xs;
+  }
+
+  .img_park {
+    @apply w-9;
+  }
+
+  .types {
+    @apply flex-center gap-2;
+    .type {
+      @apply flex-center grow p-5 rounded-lg cursor-pointer shadow-sm hover:text-button hover:ring hover:ring-button transition-all duration-300;
+    }
+
+    .type.active {
+      @apply ring ring-amber-300 text-amber-300 text-shadow-amber-300;
+    }
+  }
+
+  .quite_btn {
+    @apply w-full bg-red-500 text-white rounded-lg py-2 hover:bg-red-400 cursor-pointer transition-all duration-300;
+  }
+
 }
 
 

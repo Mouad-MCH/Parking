@@ -47,36 +47,143 @@
 
     <!-- Start main content -->
 
-    <div class="main mt-2 grid grid-cols-3 sm:grid-rows-3 grid-rows-8  gap-2 min-h-dvh">
+    <div class="main mt-2 grid grid-cols-3 sm:grid-rows-3 grid-rows-9  gap-2 min-h-dvh">
       <!-- Start parking -->
-      <div class="park p-5 box col-span-2 sm:row-span-2 row-span-3 max-sm:col-span-3 overflow-hidden relative">
+      <div class="park p-5 box col-span-2 sm:row-span-2 row-span-4 max-sm:col-span-3 overflow-hidden relative">
 
-        <h2 class="text-xl mb-5 font-medium">parking</h2>
+        <h2 class="text-xl mb-3 font-medium">parking</h2>
 
-        <div class="sw w-full h-[80%] bg-amber-300">
-          <div class="swiper-pagination"></div>
-          <div class="swiper mySwiper w-full h-full"> 
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-            </div>
+        <div id="sw" class="sw w-full h-[85%]  grid grid-cols-5 grid-rows-3 gap-0.5 p-1">
+           <!-- <div class="place active">
+            <img class="img_park" src="public/car_topview.svg" alt="">
           </div>
-       </div>
+          <div class="place">A2</div>
+          <div class="place">A3</div>
+          <div class="place">A4</div>
+          <div class="place">A5</div>
+          <div class="place">A6</div>
+          <div class="place">A7</div>
+          <div class="place active">
+            <img class="img_park" src="public/car_topview.svg" alt="">
+          </div>
+          <div class="place">A9</div>
+          <div class="place">A10</div>
+          <div class="place">A11</div>
+          <div class="place">A12</div>
+          <div class="place">A13</div>
+          <div class="place">A14</div>
+          <div class="place">A15</div> -->
+        </div>
 
       </div>
       <!-- Start parking -->
-      <div class="book box col-span-1 row-span-2 max-sm:col-span-3 max-sm:row-start-4">book</div>
-      <div class="current box col-span-2 row-span-1 max-sm:row-span-2 max-sm:row-start-7 max-sm:col-span-3 ">current</div>
-      <div class="type box col-span-1 row-span-1 max-sm:row-start-6 max-sm:col-span-3">type</div>
+
+      <div class="book box col-span-1 row-span-2 max-sm:col-span-3 max-sm:row-start-5 p-5 flex-center flex-col">
+        <div class="plate w-full">
+          <label for="plak"></label>
+          <input type="text" name="plak" id="plak" placeholder="ABC-123" class="w-full p-2 bg-white rounded-lg">
+          <input type="date" name="date" id="date"  class="w-full p-2 bg-white rounded-lg mt-3">
+        </div>
+
+        <div class="types w-full mt-3">
+          <div class="type" name="motorcycle">
+            <i class="fa-solid fa-motorcycle"></i>
+          </div>
+          <div class="type active" name="car">
+            <i class="fa-solid fa-car"></i>
+          </div>
+          <div class="type" name="car">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          
+        </div>
+
+        <button id="add_car" class="bg-amber-300 text-white w-full mt-10 rounded-lg py-3 shadow-sm cursor-pointer hover:bg-button transition-all duration-300">record the entry</button>
+        
+      </div>
+
+
+      <div class="history box col-span-2 row-span-1 max-sm:row-span-2 max-sm:row-start-8 max-sm:col-span-3 p-5">
+        <h2 class="font-bold mb-4">History</h2>
+
+        <div class="history_info p-1">
+
+          <div class="item mb-5 w-full flex-bet p-2 ring ring-white rounded-lg shadow-sm cursor-pointer hover:shadow-amber-100">
+            <div class="flex justify-items-center gap-3">
+
+              <div class="car_img w-10 rounded-lg overflow-hidden p-1 bg-white">
+                <img src="public/sport-car.png" class="w-full" alt="">
+              </div>
+
+              <div class="car_info">
+                <h1 class="font-bold">Car</h1>
+                <p class="text-[12px] text-gray-400">ABC-123</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="font-bold">Time: <span class="text-button">2h:00</span></div>
+              <div class="font-bold">Date : <span class="text-button">20-01-2004</span></div>
+            </div>
+
+            <div id="price" class="font-bold text-button">30 DH</div>
+
+          </div>
+
+          <div class="item w-full flex-bet p-2 ring ring-white rounded-lg shadow-sm cursor-pointer hover:shadow-amber-100">
+            <div class="flex justify-items-center gap-3">
+
+              <div class="car_img w-10 rounded-lg overflow-hidden p-1 bg-white">
+                <img src="public/sport-car.png" class="w-full" alt="">
+              </div>
+
+              <div class="car_info">
+                <h1 class="font-bold">Car</h1>
+                <p class="text-[12px] text-gray-400">ABC-123</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="font-bold">Time: <span class="text-button">2h:00</span></div>
+              <div class="font-bold">Date : <span class="text-button">20-01-2004</span></div>
+            </div>
+
+            <div id="price" class="font-bold text-button">30 DH</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="display box col-span-1 row-span-1 max-sm:row-start-7  max-sm:col-span-3 p-5 flex-bet flex-col">
+
+        <div class="info w-full p-2 shadow-sm rounded-lg flex-bet gap-5">
+
+          <div class="car_img w-10 rounded-lg overflow-hidden p-1 bg-white">
+            <img src="public/sport-car.png" class="w-full" alt="">
+          </div>
+
+          <div>
+            <h2 class="font-bold">Car</h2>
+            <p class="text-gray-400 text-[12px]">ABC-123</p>
+          </div>
+
+          <p>10:00</p>
+          
+        </div>
+
+        <button class="quite_btn">Quite</button>
+
+      </div>
+
     </div>
 
     <!-- End main content -->
 
       <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script> -->
 
-    <script type="module" src="/src/js/main.js"></script>
+    <script src="/src/js/main.js"></script>
   </body>
 </html>
