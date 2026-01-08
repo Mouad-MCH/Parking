@@ -1,0 +1,97 @@
+{
+  "car_data": [
+    {
+      "plateNumber": "123-ABC",
+      "type": "voiture",
+      "entryTime": "06/01/2026T08:00:00Z",
+      "exitTime": "06/01/2026T10:00:00Z",
+      "slotNumber": "A0",
+      "id": "76a5"
+    },
+    {
+      "id": "26d9",
+      "plateNumber": "ABSD-3334",
+      "type": "car",
+      "entryTime": "2026-01-08T16:43:46",
+      "exitTime": null,
+      "slotNumber": "A13"
+    }
+  ],
+  "park_data": [
+    {
+      "place": "A1",
+      "occupied": true,
+      "id": "97be"
+    },
+    {
+      "place": "A2",
+      "occupied": false,
+      "id": "6260"
+    },
+    {
+      "place": "A3",
+      "occupied": false,
+      "id": "153e"
+    },
+    {
+      "place": "A4",
+      "occupied": false,
+      "id": "37da"
+    },
+    {
+      "place": "A5",
+      "occupied": false,
+      "id": "e327"
+    },
+    {
+      "place": "A6",
+      "occupied": false,
+      "id": "7898"
+    },
+    {
+      "place": "A7",
+      "occupied": false,
+      "id": "9fc1"
+    },
+    {
+      "place": "A8",
+      "occupied": false,
+      "id": "3326"
+    },
+    {
+      "place": "A9",
+      "occupied": true,
+      "id": "27a6"
+    },
+    {
+      "place": "A10",
+      "occupied": false,
+      "id": "3643"
+    },
+    {
+      "place": "A11",
+      "occupied": false,
+      "id": "9863"
+    },
+    {
+      "place": "A12",
+      "occupied": false,
+      "id": "9c94"
+    },
+    {
+      "place": "A13",
+      "occupied": false,
+      "id": "daca"
+    },
+    {
+      "place": "A14",
+      "occupied": false,
+      "id": "69c2"
+    },
+    {
+      "place": "A15",
+      "occupied": false,
+      "id": "cb18"
+    }
+  ]
+}

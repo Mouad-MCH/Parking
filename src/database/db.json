@@ -1,0 +1,44 @@
+{ 
+ "car_data": [
+    { 
+      "plateNumber": "123-ABC", 
+      "type": "voiture", 
+      "entryTime": "06/01/2026T08:00:00Z", 
+      "exitTime": "06/01/2026T10:00:00Z", 
+      "slotNumber": "A0"
+    }
+  ],
+
+ "park_data": [
+  { "place": "A1", "occupied": true  },
+
+  { "place": "A2", "occupied": false },
+
+  { "place": "A3", "occupied": false },
+
+  { "place": "A4", "occupied": false },
+
+  { "place": "A5", "occupied": false },
+
+  { "place": "A6", "occupied": false },
+
+  { "place": "A7", "occupied": false },
+
+  { "place": "A8", "occupied": false },
+
+  { "place": "A9", "occupied": true },
+
+  { "place": "A10", "occupied": false },
+
+  { "place": "A11", "occupied": false },
+
+  { "place": "A12", "occupied": false },
+
+  { "place": "A13", "occupied": false },
+
+  { "place": "A14", "occupied": false },
+
+  { "place": "A15", "occupied": false }
+
+  ]
+}
