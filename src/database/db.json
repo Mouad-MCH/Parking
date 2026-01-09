@@ -1,44 +1,177 @@
-{ 
- "car_data": [
-    { 
-      "plateNumber": "123-ABC", 
-      "type": "voiture", 
-      "entryTime": "06/01/2026T08:00:00Z", 
-      "exitTime": "06/01/2026T10:00:00Z", 
-      "slotNumber": "A0"
+{
+  "car_data": [
+    {
+      "plateNumber": "123-ABC",
+      "type": "voiture",
+      "entryTime": "06/01/2026T08:00:00Z",
+      "exitTime": "06/01/2026T10:00:00Z",
+      "slotNumber": "A0",
+      "id": "a546"
+    },
+    {
+      "id": "e466",
+      "plateNumber": "mouad-charadi",
+      "type": "motorcycle",
+      "entryTime": "2026-01-09T08:26:38",
+      "exitTime": "2026-01-09T10:43:01.987Z",
+      "slotNumber": "A3"
+    },
+    {
+      "id": "9c49",
+      "plateNumber": "mouad-1234",
+      "type": "car",
+      "entryTime": "2026-01-09T08:28:01",
+      "exitTime": null,
+      "slotNumber": "A6"
+    },
+    {
+      "id": "6445",
+      "plateNumber": "souhaib",
+      "type": "motorcycle",
+      "entryTime": "2026-01-09T08:30:30",
+      "exitTime": "2026-01-09T10:30:30",
+      "slotNumber": "A5"
+    },
+    {
+      "id": "7775",
+      "plateNumber": "ddd",
+      "type": "motorcycle",
+      "entryTime": "2026-01-09T08:52:22",
+      "exitTime": "2026-01-09T10:39:31.437Z",
+      "slotNumber": "A2"
+    },
+    {
+      "id": "d5f6",
+      "plateNumber": "Mouahamed",
+      "type": "car",
+      "entryTime": "2026-01-09T09:00:02",
+      "exitTime": null,
+      "slotNumber": "A6"
+    },
+    {
+      "id": "0574",
+      "plateNumber": "DBC-1234",
+      "type": "car",
+      "entryTime": "2026-01-09T09:03:05",
+      "exitTime": "2026-01-09T10:43:01.987Z",
+      "slotNumber": "A3"
+    },
+    {
+      "id": "36bb",
+      "plateNumber": "lklll",
+      "type": "car",
+      "entryTime": "2026-01-09T09:50:34.683Z",
+      "exitTime": "2026-01-09T11:17:25.877Z",
+      "slotNumber": "A4"
+    },
+    {
+      "id": "c30e",
+      "plateNumber": "mouaccv",
+      "type": "car",
+      "entryTime": "2026-01-09T10:24:31.751Z",
+      "exitTime": "2026-01-09T10:39:31.437Z",
+      "slotNumber": "A2"
+    },
+    {
+      "id": "83c2",
+      "plateNumber": "mouad-vvvvv",
+      "type": "car",
+      "entryTime": "2026-01-09T10:38:41.698Z",
+      "exitTime": "2026-01-09T10:39:31.437Z",
+      "slotNumber": "A2"
+    },
+    {
+      "id": "1e29",
+      "plateNumber": "charadi-2222",
+      "type": "car",
+      "entryTime": "2026-01-09T10:42:39.694Z",
+      "exitTime": "2026-01-09T10:43:01.987Z",
+      "slotNumber": "A3"
+    },
+    {
+      "id": "4a22",
+      "plateNumber": "ABSD-3334",
+      "type": "car",
+      "entryTime": "2026-01-09T10:48:14.743Z",
+      "exitTime": "2026-01-09T11:18:39.710Z",
+      "slotNumber": "A7"
     }
   ],
-
- "park_data": [
-  { "place": "A1", "occupied": true  },
-
-  { "place": "A2", "occupied": false },
-
-  { "place": "A3", "occupied": false },
-
-  { "place": "A4", "occupied": false },
-
-  { "place": "A5", "occupied": false },
-
-  { "place": "A6", "occupied": false },
-
-  { "place": "A7", "occupied": false },
-
-  { "place": "A8", "occupied": false },
-
-  { "place": "A9", "occupied": true },
-
-  { "place": "A10", "occupied": false },
-
-  { "place": "A11", "occupied": false },
-
-  { "place": "A12", "occupied": false },
-
-  { "place": "A13", "occupied": false },
-
-  { "place": "A14", "occupied": false },
-
-  { "place": "A15", "occupied": false }
-
+  "park_data": [
+    {
+      "place": "A1",
+      "occupied": true,
+      "id": "dc72"
+    },
+    {
+      "place": "A2",
+      "occupied": false,
+      "id": "769e"
+    },
+    {
+      "place": "A3",
+      "occupied": false,
+      "id": "f107"
+    },
+    {
+      "place": "A4",
+      "occupied": false,
+      "id": "b931"
+    },
+    {
+      "place": "A5",
+      "occupied": false,
+      "id": "7cce"
+    },
+    {
+      "place": "A6",
+      "occupied": false,
+      "id": "359e"
+    },
+    {
+      "place": "A7",
+      "occupied": false,
+      "id": "c481"
+    },
+    {
+      "place": "A8",
+      "occupied": false,
+      "id": "cfeb"
+    },
+    {
+      "place": "A9",
+      "occupied": true,
+      "id": "8116"
+    },
+    {
+      "place": "A10",
+      "occupied": false,
+      "id": "4426"
+    },
+    {
+      "place": "A11",
+      "occupied": false,
+      "id": "8c33"
+    },
+    {
+      "place": "A12",
+      "occupied": false,
+      "id": "1a01"
+    },
+    {
+      "place": "A13",
+      "occupied": false,
+      "id": "3145"
+    },
+    {
+      "place": "A14",
+      "occupied": false,
+      "id": "1739"
+    },
+    {
+      "place": "A15",
+      "occupied": false,
+      "id": "731c"
+    }
   ]
 }
